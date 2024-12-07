@@ -33,7 +33,7 @@ app.post("/api/v1/signup",async (req,res)=>{
     }
  })
 app.post("/api/v1/signin",(req,res)=>{
-
+res.json({ msg:"You are Signed In"})
 })
 app.post("/api/v1/content",(req,res)=>{
 
